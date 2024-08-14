@@ -1,0 +1,52 @@
+h2{
+    color: rgba(222, 19, 185, 0.894);
+    font-size: 25px;
+}
+h1{
+    color: rgba(8, 1, 7, 0.894);
+    font-size: 40px;
+}
+p{
+    font-size: 23px;
+}
+body{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    display: flex;
+    background-color: rgb(246, 209, 215);
+}
+.dareen{
+    margin-top: 250px;
+    margin-left: 100px;
+}
+button{
+    font-size: 25px;
+    width: 230px;
+    height: 40px;
+    border-radius: 20px;
+    background-color: rgb(255, 255, 255);
+    color: coral;
+    border-color: coral;
+}
+button:hover{
+    background-color: coral;
+    color: antiquewhite;
+}
+img{
+    margin-left: 300px;
+    margin-top: 150px;
+    animation: dareenimg 2s linear infinite;
+}
+@keyframes dareenimg{
+    0%{
+        transform: translate(11px , 0);
+    }
+    50%{
+        transform: translate(20px , -25px);
+    }
+    100%{
+        transform: translate(0,11px);
+}
+        
+}
+    
+
